@@ -40,19 +40,7 @@ Both backbones are frozen; only the small heads are trained. Each trainable mode
 
 Full tables are in `results/tables/` and figures in `results/figures/`. `memotion_fusion.ipynb` is saved with all outputs from this run.
 
-## How to reproduce
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sona1901/memotion-fusion/blob/main/memotion_fusion.ipynb)
-
-1. Open `memotion_fusion.ipynb` in Google Colab (use the badge above).
-2. *Runtime → Change runtime type → T4 GPU.*
-3. *Runtime → Run all.* The dataset downloads automatically from Kaggle via `kagglehub` (no API key needed).
-4. Total run time is about 20–30 minutes on a T4. Image features are cached in `features/`, so re-runs take a few minutes.
-5. All outputs are written to `results/` and downloaded as `results.zip`.
-
-To run locally instead: `pip install -r requirements.txt`, then run the notebook with Jupyter (a CUDA GPU is strongly recommended).
-
-All hyperparameters are in the `CFG` dictionary in Section 1 and are saved to `results/config.json`.
 
 ## Pipeline
 
