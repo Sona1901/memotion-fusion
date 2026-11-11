@@ -1,0 +1,9 @@
+image_name,text,text_source,n_words,true,pred,confidence
+image_562.jpg,INVISIBLE SAMURAI SWORD,corrected,3,neutral,positive,0.995
+image_3129.jpg,SO I BECAME A PENGUIN,corrected,5,neutral,positive,0.978
+image_2936.jpeg,"ADMIT IT. GERALD WAS YOUR FAVORITE PART OF ""FINDING DORY""",corrected,10,neutral,positive,0.969
+image_5852.jpg,MEANWHILE AT FOSTERS HOME FOR IMAGINARY FRIENDS 000 Memetenter,corrected,9,positive,negative,0.967
+image_2834.png,Morpheus the sausage,corrected,3,negative,neutral,0.966
+image_908.png,Blonde Bros need to chill! Avenegersmemes ~Deadpool,corrected,7,neutral,positive,0.965
+image_3625.png,I DON'T THINK TAKING AN EXISTING MOVIE FRANCHISE AND REPLACING ALL THE MALE LEADS WITH WOMEN IS A VERY CREATIVE OR GOOD IDEA made on imgur,corrected,26,positive,neutral,0.955
+image_5008.jpg,My ex girlfriends birthday is in 2 days and she's all I can think about. Should I reach out and wish her a happy birthday?? whisper,corrected,26,positive,neutral,0.954

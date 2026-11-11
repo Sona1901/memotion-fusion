@@ -1,0 +1,7 @@
+case,count
+Image and text models agree (Cohen's kappa),0.022
+All three correct,281
+"Both unimodal wrong, Late fusion (weighted) right",0
+"Late fusion (weighted) wrong, at least one unimodal right",269
+All three wrong,322
+Test memes,1045

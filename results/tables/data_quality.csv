@@ -1,0 +1,19 @@
+check,value
+Memes in labels.csv,6992
+Unreadable or missing image files (removed),1
+"Exact duplicate images (removed, keep first)",25
+Duplicate groups with conflicting labels,11
+Raw OCR text missing,161
+Corrected text missing,5
+Both texts missing -> [NO TEXT] placeholder,4
+OCR fallback used,1
+Texts with URL / watermark removed,2196
+Animated GIFs (first frame used),1
+Image formats,"JPEG: 5314, PNG: 1675, GIF: 3"
+Median image size (w x h),500 x 500
+Smallest / largest image width,100 / 4961
+Words per meme: median / 95th pct / max,12 / 31 / 187
+Memes kept for modelling,6966
+Class 'negative',628 (9.0%)
+Class 'neutral',2196 (31.5%)
+Class 'positive',4142 (59.5%)

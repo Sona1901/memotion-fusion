@@ -1,0 +1,11 @@
+# Tested on Google Colab (T4 GPU), Python 3.12. Colab already has everything except kagglehub.
+torch>=2.2
+torchvision>=0.17
+transformers>=4.40
+kagglehub>=0.2
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.0
+tqdm>=4.66

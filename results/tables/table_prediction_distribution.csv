@@ -1,0 +1,10 @@
+,negative,neutral,positive
+Majority class,0.0,0.0,1.0
+Image-only,0.059,0.411,0.53
+Text-only,0.011,0.201,0.789
+Early fusion,0.085,0.419,0.496
+Late fusion (mean),0.026,0.361,0.613
+Late fusion (weighted),0.059,0.411,0.53
+Cross-attention,0.089,0.308,0.603
+CLIP linear probe (ref.),0.245,0.338,0.417
+True distribution,0.09,0.316,0.594

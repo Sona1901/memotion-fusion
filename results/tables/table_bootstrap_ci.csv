@@ -1,0 +1,9 @@
+,macro-F1 (seed 42),95% CI low,95% CI high
+Majority class,0.248,0.24,0.256
+Image-only,0.319,0.293,0.349
+Text-only,0.311,0.287,0.337
+Early fusion,0.329,0.298,0.358
+Late fusion (mean),0.33,0.299,0.359
+Late fusion (weighted),0.319,0.293,0.349
+Cross-attention,0.311,0.285,0.338
+CLIP linear probe (ref.),0.332,0.304,0.36

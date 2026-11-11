@@ -1,0 +1,5 @@
+split,negative,neutral,positive,All
+train,440,1537,2899,4876
+val,94,329,622,1045
+test,94,330,621,1045
+All,628,2196,4142,6966

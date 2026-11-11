@@ -1,0 +1,9 @@
+model,trainable_params,train_time_s,features_used,inference_ms_per_1000
+Majority class,0,0.0,none,
+Image-only,529411,3.05,pooled image,3.42
+Text-only,199171,2.21,pooled text,3.12
+Early fusion,727555,2.93,pooled image + text,3.72
+Late fusion (mean),728582,5.26,pooled image + text,6.52
+Late fusion (weighted),728582,5.26,pooled image + text,6.51
+Cross-attention,1399043,22.5,49 image + L text tokens,70.46
+CLIP linear probe (ref.),3075,20.5,CLIP embeddings,

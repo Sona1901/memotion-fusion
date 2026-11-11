@@ -1,0 +1,44 @@
+{
+  "n_memes_raw": 6992,
+  "n_memes_used": 6966,
+  "split_sizes": {
+    "train": 4876,
+    "val": 1045,
+    "test": 1045
+  },
+  "best_fusion_by_val": "Late fusion (weighted)",
+  "best_unimodal_by_val": "Image-only",
+  "max_len": 64,
+  "truncation_rate": 0.0093,
+  "test_macro_f1_mean": {
+    "Majority class": 0.2485,
+    "Image-only": 0.3156,
+    "Text-only": 0.3127,
+    "Early fusion": 0.3338,
+    "Late fusion (mean)": 0.3199,
+    "Late fusion (weighted)": 0.3156,
+    "Cross-attention": 0.3239,
+    "CLIP linear probe (ref.)": 0.3324
+  },
+  "test_macro_f1_std": {
+    "Majority class": null,
+    "Image-only": 0.0136,
+    "Text-only": 0.0025,
+    "Early fusion": 0.0075,
+    "Late fusion (mean)": 0.0134,
+    "Late fusion (weighted)": 0.0136,
+    "Cross-attention": 0.0194,
+    "CLIP linear probe (ref.)": null
+  },
+  "times_s": {
+    "image_check_s": 26.2,
+    "image_features_s": 55.7,
+    "text_features_s": 6.5,
+    "clip_features_s": 90.0
+  },
+  "late_fusion_w_image": {
+    "42": 1.0,
+    "43": 0.9500000000000001,
+    "44": 1.0
+  }
+}

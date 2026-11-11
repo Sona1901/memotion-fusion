@@ -1,0 +1,9 @@
+comparison,mean_diff,ci_low,ci_high,p_one_sided
+Early fusion vs Image-only,0.009,-0.02,0.039,0.271
+Early fusion vs Text-only,0.018,-0.021,0.054,0.191
+Late fusion (mean) vs Image-only,0.011,-0.01,0.032,0.156
+Late fusion (mean) vs Text-only,0.019,-0.013,0.055,0.14
+Late fusion (weighted) vs Image-only,0.0,0.0,0.0,1.0
+Late fusion (weighted) vs Text-only,0.009,-0.027,0.046,0.323
+Cross-attention vs Image-only,-0.009,-0.044,0.024,0.716
+Cross-attention vs Text-only,-0.001,-0.031,0.034,0.513

@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "img_size": 224,
+  "image_model": "ResNet-50, ImageNet IMAGENET1K_V2 weights, frozen",
+  "text_model": "bert-base-uncased, frozen, mean-pooled last layer",
+  "max_len": 64,
+  "hidden": 256,
+  "dropout": 0.3,
+  "lr_mlp": 0.001,
+  "lr_xattn": 0.0003,
+  "weight_decay": 0.01,
+  "batch": 64,
+  "epochs": 40,
+  "patience": 6,
+  "xattn_dim": 256,
+  "xattn_heads": 4,
+  "loss": "cross-entropy with inverse-frequency class weights",
+  "run_cross_attention": true,
+  "run_clip_reference": true,
+  "n_bootstrap": 1000
+}
